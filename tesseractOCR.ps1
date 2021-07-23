@@ -48,8 +48,7 @@ Write-Host 古いバージョン削除中
 Remove-Item d:\tesseract4win64* -Recurse -Force
 # 共有からtesseract4win64-masterフォルダをD:ドライブ直下にリカーシブコピー
 Write-Host 最新版を共有からコピー中
-Copy-Item -Path \\whereis\ourshare\hereitis\共有\tools\tesseract4win64-master -Destination d:\ -Force -Recurse
-}
+Copy-Item -Path \\whereis\ourshare\hereitis\共有\tools\tesseract4win64-master -Destination d:\ -Force -Recurse }
 #
 # Execute Tesseract OCR
 #
